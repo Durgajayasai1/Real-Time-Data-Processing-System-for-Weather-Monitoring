@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-dinpt#uyz*ypi403)e#y#@8#j8@ux+mgs2&we7m&)y5q^lotl5
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://real-time-data-processing-system-for-1zb7.onrender.com']
 
 
 # Application definition
