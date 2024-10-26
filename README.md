@@ -27,4 +27,24 @@ Make sure Python 3 and pip are installed, then install required packages:
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Run Migrations
+
+```bash
+python manage.py migrate
+```
+
+### 4. Run the Server
+
+```bash
+python manage.py runserver
+```
+
+## Usage
+- Access the application at http://127.0.0.1:8000/.
+- Set weather alerts by selecting a city and defining a temperature threshold.
+- The system will automatically send email alerts when the temperature in the selected city exceeds the threshold.
+
+ ## Live Demo
+
+Check out the live demo of the Weather Monitoring Alert System: [Weather Monitoring Alert System Live](https://real-time-data-processing-system-for-1zb7.onrender.com)
 
