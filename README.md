@@ -18,6 +18,7 @@ A Django-based system that monitors weather conditions using the OpenWeatherMap 
 ```bash
 git clone https://github.com/yourusername/weather-monitoring-alert-system.git
 cd weather-monitoring-alert-system
+```
 
 ### 2. Install Dependencies
 
@@ -25,4 +26,5 @@ Make sure Python 3 and pip are installed, then install required packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
